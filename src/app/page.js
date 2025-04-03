@@ -2,7 +2,8 @@ export default function Home() {
   return (
       <main className="bg-black text-white flex flex-col items-center justify-center min-h-screen text-center">
           {/* Logo */}
-          <img src="/logo.png" alt="DJ Dhruv Logo" className="w-32 h-32 mx-auto" />
+          <img src="/logo.png" alt="DJ Dhruv Logo" className="w-32 h-auto max-w-xs mx-auto" />
+
 
 
           {/* Heading */}
