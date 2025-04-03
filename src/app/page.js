@@ -4,7 +4,7 @@ export default function Home() {
       {/* Logo */}
       <div className="w-48 h-48">
         <img 
-          src="/logo.png" 
+          src="/logo .png" 
           alt="DJ Dhruv Logo" 
           className="w-full h-full object-contain"
         />
