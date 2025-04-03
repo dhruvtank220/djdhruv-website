@@ -1,8 +1,11 @@
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-primary text-white">
-      <h1 className="text-5xl font-bold">🔥 Welcome to DJ Dhruv! 🎧</h1>
-      <p className="mt-4 text-lg">Your one-stop destination for electrifying beats! 🚀</p>
-    </main>
+      <main className="bg-black text-white flex flex-col items-center justify-center min-h-screen text-center">
+          {/* Logo */}
+          <img src="/logo.png" alt="DJ Dhruv Logo" className="w-48 mb-4" />
+
+          {/* Heading */}
+          <h1 className="text-4xl font-bold">🔥 Welcome to DJ Dhruv! 🎧</h1>
+      </main>
   );
 }

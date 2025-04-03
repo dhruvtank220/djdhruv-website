@@ -1,3 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Set a black background and center content */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Style the logo */
+.logo {
+    width: 200px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
